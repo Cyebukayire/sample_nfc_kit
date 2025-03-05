@@ -1,16 +1,47 @@
-# sample_nfc_kit
+# Sample NFC Kit  
 
-A new Flutter project.
+A simple Flutter app to read and write NFC tags using `flutter_nfc_kit`.  
 
-## Getting Started
+## Getting Started  
 
-This project is a starting point for a Flutter application.
+### 1️⃣ Install Dependencies  
 
-A few resources to get you started if this is your first Flutter project:
+Run the following command to install required packages:  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```sh
+flutter pub get
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 2️⃣ Platform-Specific Setup
+
+#### 📱 Android
+Ensure your device has NFC enabled.
+Uses Android 19 (KitKat) and above.
+
+#### 🍏 iOS
+Only works on iPhone 7 and later with iOS 13+.
+
+
+### 4️⃣ Running the App
+To run the app on a physical device (NFC is not supported on emulators):
+
+```sh
+flutter run
+```
+
+### 5️⃣ Features
+📖 Read NFC tags
+✍️ Write custom data to NFC tags
+🔄 Erase NFC tag content
+
+### 6️⃣ Troubleshooting
+Ensure your phone supports NFC and is turned on.
+If you face build issues, try:
+
+```sh
+flutter clean
+flutter pub get
+```
+
+## 🚀 Contributing
+Feel free to fork and submit descriptive pull requests!
