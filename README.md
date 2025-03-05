@@ -12,6 +12,7 @@ Run the following command to install required packages:
 flutter pub get
 ```
 
+
 ### 2️⃣ Platform-Specific Setup
 
 #### 📱 Android
@@ -22,6 +23,7 @@ Uses Android 19 (KitKat) and above.
 Only works on iPhone 7 and later with iOS 13+.
 
 
+
 ### 4️⃣ Running the App
 To run the app on a physical device (NFC is not supported on emulators):
 
@@ -29,10 +31,14 @@ To run the app on a physical device (NFC is not supported on emulators):
 flutter run
 ```
 
+
 ### 5️⃣ Features
 📖 Read NFC tags
+
 ✍️ Write custom data to NFC tags
+
 🔄 Erase NFC tag content
+
 
 ### 6️⃣ Troubleshooting
 Ensure your phone supports NFC and is turned on.
@@ -42,6 +48,7 @@ If you face build issues, try:
 flutter clean
 flutter pub get
 ```
+
 
 ## 🚀 Contributing
 Feel free to fork and submit descriptive pull requests!
